@@ -1,0 +1,31 @@
+{
+  "name": "blockchain_audit_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@typechain/ethers-v5": "^10.0.0",
+    "@typechain/hardhat": "^6.0.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "ts-node": "^10.7.0",
+    "typechain": "^8.0.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "hardhat-typechain": "^0.3.5",
+    "ts-generator": "^0.1.1"
+  }
+}
